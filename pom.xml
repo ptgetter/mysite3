@@ -178,7 +178,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1/manager/text</url>
-					<path>/jblog</path>
+					<path>/mysite3</path>
 					<username>admin</username>
 					<password>h1735</password>
 				</configuration>
