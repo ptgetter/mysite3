@@ -21,10 +21,11 @@ public class MainController {
 		return "하이";
 	}
 	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@ResponseBody
 	@RequestMapping("/json")
 	public Map json() {
-		Map map = new HashMap();
+		Map map = new HashMap(10);
 		map.put("result", "success");
 		map.put("message", null);
 		map.put("data", 10);
